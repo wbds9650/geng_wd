@@ -1,0 +1,70 @@
+.fds{
+    font-size: 15px;
+    color: rgb(45, 36, 36);
+    padding-bottom: 5px;
+}
+.lu{
+    display: flex;
+    justify-content: center;
+}
+.bgi{
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bcf{
+    font-size: 50px;
+    color: black;
+}
+.bc{
+    background-image: url(/imga/Premium\ Photo\ _\ Laptop\ and\ coffee\ copy\ space.jfif);
+    padding: 210px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mh{
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+.bot{
+    color: white;
+}
+.ig{
+   border-radius: 6px;
+}
+.fon{
+    font-family: "Playwrite CO", cursive;
+    font-size: 20px;
+    padding-top: 2px;
+    gap: 2px;
+}
+.f2{
+    font-family: "Playwrite FR Moderne", cursive;
+    font-size: 40px;
+}
+.f3{
+    font-family: "Playwrite FR Moderne", cursive;
+}
+.f4{
+    font-family: "Roboto Slab", serif;
+}
+.f5{
+    font-style: italic;
+    border: 3px solid black;
+    border-radius: 40px;
+    padding: 4px;
+    background-color: rgb(17, 15, 15);
+}
+.f6{
+    font-family: "Roboto Slab", serif;
+}
+.error{
+    font-size: small;
+    color: red;
+    display: none;
+}
+.f8{
+    padding-top: 100px;
+}
