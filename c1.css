@@ -31,14 +31,14 @@
     margin-left: auto;
 }
 
-@media screen  and (max-width:1026px){
+@media screen  and (max-width:900px){
     .navb{
         display: block;
     }
     
 }
 
-@media screen  and (max-width:1026px){
+@media screen  and (max-width:900px){
     .mnavb{
         display: none;
         
