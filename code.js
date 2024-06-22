@@ -16,14 +16,6 @@ $(document).ready(function(){
         $(this).css({'background-color':'transparent'});
     });
 
-    $('.crd').mouseenter(function(){
-        $(this).css({'background-color':'rgba(11, 112, 11, 0.858)'});
-    });
-
-    $('.crd').mouseleave(function(){
-        $(this).css({'background-color':'rgb(192, 239, 123)'});
-    });
-
     $('.crd2').mouseenter(function(){
         $(this).css({'background-color':'rgba(11, 112, 11, 0.858)'});
     });

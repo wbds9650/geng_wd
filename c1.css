@@ -1,8 +1,11 @@
 .bg{
+    display: flex;
+    width: 100%;
     background-image: url(/img/awesome-dark-green-wallpaper-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px 0;
+    background-attachment: fixed;
     
 }
 .fsize{
@@ -13,10 +16,8 @@
     border-radius: 50%;
     border-color: beige;
 }
-.pad{
-    padding-left: 150px;
+.pad1{
     position: fixed;
-
 }
 .hrc{
     color: white;
@@ -27,21 +28,31 @@
     background-color: rgb(169, 233, 183);
     margin-right: auto;   
 }
+
+.mnavb{
+    display: flex;
+    justify-content: right;
+}
+
+.insta{
+    text-decoration-line: none;
+    color: rgb(22, 116, 224);
+    font-size: 15px;
+}
 .navb3{
     margin-left: auto;
 }
 
-@media screen  and (max-width:900px){
+@media screen  and (max-width:770px){
     .navb{
         display: block;
     }
     
 }
 
-@media screen  and (max-width:900px){
+@media screen  and (max-width:770px){
     .mnavb{
-        display: none;
-        
+        display: none;   
     }
     
 }
@@ -79,12 +90,7 @@
     font-size: large;
     color: rgb(220, 236, 195);
 }
-.mar1{
-    margin-left: auto;
-}
-.mar2{
-    margin-right: auto;
-}
+
 .crd{
     width: 360px;
     padding: 10px;
@@ -98,29 +104,13 @@
     padding: 5px;
     margin-bottom: 20px;
 }
-@media screen  and (max-width:768px){
-    .crd{
-        display: flex;
-        width: 100%;
-        background-color: rgba(11, 112, 11, 0.858);
-    }
-    
-}
-
 
 .cn{
     display: flex;
-    width: 700px;
-    margin-top: 30px;
+    width: 100%;
     background-color: rgba(115, 222, 149, 0.29); 
+    margin-top: 30px;
     color: white;
-}
-@media screen  and (max-width:768px){
-    .cn{
-        display: flex;
-        width: 100%;
-        
-    }   
 }
 
 .tw{
