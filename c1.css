@@ -16,6 +16,11 @@
     border-radius: 50%;
     border-color: beige;
 }
+
+.igw{
+    width: 30px;
+}
+
 .pad1{
     position: fixed;
 }
@@ -36,8 +41,8 @@
 
 .insta{
     text-decoration-line: none;
-    color: rgb(22, 116, 224);
-    font-size: 15px;
+    color: white;
+    font-size: 18px;
 }
 .navb3{
     margin-left: auto;
@@ -64,6 +69,16 @@
     
 }
 
+.md2{
+    display: flex;
+    flex-direction: row;
+}
+
+.mar1{
+    display: flex;
+    margin-left: auto;
+}
+
 .shadow2{
     padding-top: 8px;
     padding-bottom: 8px;
@@ -84,7 +99,6 @@
     color: aqua;
     width: 300px;
     border-radius: 10px;
-    box-shadow: 5px 3px 5px green;  
 }
 .fsize{
     font-size: large;
@@ -108,9 +122,9 @@
 .cn{
     display: flex;
     width: 100%;
-    background-color: rgba(115, 222, 149, 0.29); 
+    background-color: rgba(139, 220, 102, 0.568); 
     margin-top: 30px;
-    color: white;
+    color: black;
 }
 
 .tw{
