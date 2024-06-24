@@ -1,0 +1,55 @@
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 90px;
+}
+
+
+
+.cal{
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    border: 3px solid red;
+    border-radius: 6px;
+    padding: 25px;
+    
+}
+h1{
+    font-style: italic;
+    text-align: center;
+    color: antiquewhite;
+}
+.in{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 30px;
+    padding: 7px;
+}
+.bt{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.but{
+    padding: 4px;
+}
+.br{
+    background-color: orange;
+    font-size: 20px;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    border: 0px;
+}
+.bh{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    justify-content: right;
+    margin-left: 144px;
+}

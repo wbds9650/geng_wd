@@ -8,8 +8,11 @@
     <link href="/c1.css" rel="stylesheet">
     <link href="/tem.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+ES:wght@100..400&family=Playwrite+MX:wght@100..400&family=Playwrite+NG+Modern:wght@100..400&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="fnt3">
   <nav class="navbar navbar-expand-lg py-0 text-uppercase border border-light-subtle sticky-top navb">
     <div class="container navb2">
       <h4 class="navbar-brand fs-5 f5 text-white mt-2">geng</h4>
@@ -32,7 +35,7 @@
           </li>
       </div>
     </div></nav>
-    <div class="bg">
+    <div id="bg" class="light">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4 mnavb">
@@ -43,27 +46,27 @@
                         <a class="insta" href="https://www.instagram.com/mhds9650/" target="_blank">@mhds9650</a></div>
                         <hr class="hrc">
                         <div>
-                          <a class="nav-link shadow2" href="/index.html"> <img class="igw" src="/img/home-1-svgrepo-com.svg"> Home </a>
+                          <a class="nav-link shadow2 " href="/index.html"> <img class="igw" src="/img/home-1-svgrepo-com.svg"> Home </a>
                           <a class="nav-link shadow1" href="/about.html">About</a>
                           <a class="nav-link shadow1" href="/template.html">Template</a>
-                          <a class="nav-link shadow1" href="contact.html">💬 Contact</a>
-                        <hr class="hrc">
+                          <a class="nav-link shadow1" href="/contact.html">💬 Contact</a>
+                        <hr class="hrcl">
                     </nav>
                 </div>
-                <div class="col-md-8 text-white">
+                <div class="col-md-8">
                   <h2 class="fs-1">Dass</h2>
                   <p class="fsize">I'm Mohandass,i am Front-End Web Developer most used tool Desing using Css,Bootstrap,Fontawesome<br> and code Javascript,Jquary and Hosting by Git,Gitgub,Netlify.<br>Let your album out from your brain.</p>
                   <div class="md2">
-                    <div class="col-md-9 text-white mar2">
+                    <div class="col-md-9 mar2">
                       <h4>Template</h4>
                     </div>
-                    <div class="col-md-3 text-white mar1">
+                    <div class="col-md-3 mar1">
                       <a href="/template.html" class="insta">see all</a>
                     </div>
                   </div>
                   <div class="row ">
                     <div class="col-md-5">
-                      <div class="card crd2">
+                      <div id="cr" class="card crd2 l1">
                         <img src="/img/missio-bootstrap-portfolio-website-template.jpg" class="card-img-top">
                         <div class="card-body">
                           <h3>Profolio</h3>
@@ -72,7 +75,7 @@
                       </div>
                     </div>
                     <div class="col-md-5">
-                      <div class="card crd2">
+                      <div id="cr1" class="card crd2 l1">
                         <img src="/img/Colorful-Abstract-Background.jpg" class="card-img-top" >
                         <div class="card-body">
                           <h3>Profolio</h3>
@@ -83,7 +86,7 @@
                   </div>
                   <div class="row ">
                     <div class="col-md-10">
-                      <div class="card cn">
+                      <div id="cr3" class="card cn l1">
                         <div class="card-body">
                           <h3 class="card-title">You Can Talk With Me!</h3>
                           <p class="card-text">I am free to talk about the Web Desinging Quaries and I can make<br> websites based on your requests.If You want to contact me and build a conversation<br> regarding web desing, You can reach me by below link</p>
@@ -92,11 +95,20 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                <div class="backchg">
+                  <div class="backch" onclick="background1(),backgroun33()">
+                    <img src="/img/bglight.png" > 
+                  </div>
+                  <div class="backch" onclick="backgroun()">
+                    <img src="/img/bgdark2.jpg"> 
+                  </div>
+              </div>
+              <h4>Themes</h4> 
             </div>
-        </div>
+      </div>
     </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="/code.js" ></script>
+<script src="/back.js"></script>
 </html>
