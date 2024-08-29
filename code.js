@@ -27,14 +27,14 @@ $(document).ready(function(){
     });
 
     $('.ig1').mouseenter(function(){
-        $(this).css({'width': '110px'});
-        $(this).css({'border-radius': '40px'});
-        $(this).css({'box-shadow': 'rgba(14, 153, 9, 0.4) 5px 5px, rgba(14, 153, 9, 0.4) 10px 10px, rgba(14, 153, 9, 0.4) 15px 15px, rgba(14, 153, 9, 0.4) 20px 20px, rgba(14, 153, 9, 0.4) 25px 25px'})
+        $(this).css({'width': '90px'});
+        $(this).css({'border-radius': '80px'});
+        $(this).css({'box-shadow': 'rgba(14, 153, 9, 0.4) 2px 2px, rgba(14, 153, 9, 0.4) 1px 1px, rgba(14, 153, 9, 0.4) 5px 5px, rgba(14, 153, 9, 0.4) 2px 2px, rgba(14, 153, 9, 0.4) 5px 5px'})
     });
 
     $('.ig1').mouseleave(function(){
         $(this).css({'width': '80px'});
-        $(this).css({'border-radius': '20px'});
+        $(this).css({'border-radius': '40px'});
         $(this).css({'box-shadow': 'none'})
     });
 
