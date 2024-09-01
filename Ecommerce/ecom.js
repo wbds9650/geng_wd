@@ -7,6 +7,6 @@ function shownavbar() {
 
 function hidenavbar() {
     var sdn = document.querySelector(".sdn");
-    sdn.style.left="-660px"
+    sdn.style.left="-70%"
 }
 
