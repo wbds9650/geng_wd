@@ -78,7 +78,10 @@
     .mnavb{
         display: none;   
     }
-    
+     
+    .ig1{
+       width: 45px; 
+    }
 }
 .pad1{
     padding-left: 4px;

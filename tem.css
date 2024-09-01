@@ -62,7 +62,11 @@
     flex-direction: row;
 }
 .md2{
-    margin-left: 20px;
+    display: flex;
+    margin-left: 5px;
+    gap: 10px;
+    flex-wrap: wrap;
+    position: relative;
 }
 
 .md3{
