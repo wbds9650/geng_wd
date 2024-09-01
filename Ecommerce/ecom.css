@@ -262,6 +262,8 @@
 
 .siz{
         border-radius: 10px;
+        width: 250px; 
+        height: 300px;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
         border: double 6px rgb(212, 201, 180);
 }
@@ -298,6 +300,27 @@
         display: none;
     }
 
+    .im5{
+        width: 164px;
+        height: 280px;
+    }
+
+    .im6{
+        width: 150px;
+        height: 150px;
+    }
+
+    .bt{
+        padding: 6px;
+        top: 140px;
+        left: 43px;
+    }
+
+    .siz{
+        width: 150px;
+        height: 200px;
+    }
+
     .sr{
         flex-direction: column;
         text-align: center;
@@ -312,7 +335,7 @@
     }
 
     .bx{
-        width: 60%;
+        width: 85%;
     }
     
 }
