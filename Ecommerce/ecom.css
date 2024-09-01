@@ -73,8 +73,9 @@
 
 .post{
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
-    gap: 50px;
     background-image: url(/Ecommerce/img/Black\ and\ \ White\ Gradient\ Personal\ LinkedIn\ Banner.jpg);
    background-position-x: center;
    background-size:cover;
@@ -85,6 +86,10 @@
 .ps1{
     padding-top: 50px;
 
+}
+
+.tit{
+    color: rgb(61, 61, 220); font-size: 60px; font-family: Matemasie, sans-serif;
 }
 
 .ps2{
@@ -301,13 +306,17 @@
     }
 
     .im5{
-        width: 164px;
-        height: 280px;
+        width: 144px;
+        height: 240px;
     }
 
     .im6{
         width: 150px;
         height: 150px;
+    }
+
+    .tit{
+        font-size: 40px;
     }
 
     .bt{
