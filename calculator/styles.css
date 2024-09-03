@@ -47,6 +47,19 @@ h1{
     border-radius: 50%;
     border: 0px;
 }
+
+@media screen and (max-width:770px) {
+    .but{
+        padding: 2px;
+    }
+    .bt{
+        padding: 2px;
+    }
+    .br{
+        font-size: 10px;
+    }
+}
+
 .bh{
     width: 70px;
     height: 70px;
