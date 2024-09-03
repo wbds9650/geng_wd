@@ -34,11 +34,9 @@ h1{
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    padding: 0%;
 }
 
-.but{
-    padding: 4px;
-}
 .br{
     background-color: orange;
     font-size: 20px;
@@ -48,22 +46,26 @@ h1{
     border: 0px;
 }
 
-@media screen and (max-width:770px) {
-    .but{
-        padding: 2px;
-    }
-    .bt{
-        padding: 2px;
-    }
-    .br{
-        font-size: 10px;
-    }
+.btn4{
+    display: flex;
+    justify-content: space-between;
 }
 
-.bh{
+.bss{
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    justify-content: right;
-    margin-left: 144px;
+    margin-left: auto;    
 }
+
+.btn5{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+
+}
+
+
+
+
+
